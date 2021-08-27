@@ -570,7 +570,14 @@ github.com/gorilla/websocket
 # github.com/grafana/dskit v0.0.0-20210827060659-9daca2f00327
 ## explicit
 github.com/grafana/dskit/backoff
+github.com/grafana/dskit/closer
 github.com/grafana/dskit/flagext
+github.com/grafana/dskit/kv
+github.com/grafana/dskit/kv/codec
+github.com/grafana/dskit/kv/consul
+github.com/grafana/dskit/kv/etcd
+github.com/grafana/dskit/kv/kvtls
+github.com/grafana/dskit/kv/memberlist
 github.com/grafana/dskit/modules
 github.com/grafana/dskit/runtimeconfig
 github.com/grafana/dskit/services
