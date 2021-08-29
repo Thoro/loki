@@ -33,6 +33,7 @@ require (
 	github.com/fluent/fluent-bit-go v0.0.0-20190925192703-ea13c021720c
 	github.com/fsouza/fake-gcs-server v1.7.0
 	github.com/go-kit/kit v0.11.0
+	github.com/go-kit/log v0.1.0
 	github.com/go-logfmt/logfmt v0.5.0
 	github.com/go-redis/redis/v8 v8.9.0
 	github.com/gocql/gocql v0.0.0-20200526081602-cd04bd7f22a7
@@ -122,3 +123,5 @@ replace github.com/gocql/gocql => github.com/grafana/gocql v0.0.0-20200605141915
 // Same as Cortex
 // Using a 3rd-party branch for custom dialer - see https://github.com/bradfitz/gomemcache/pull/86
 replace github.com/bradfitz/gomemcache => github.com/themihai/gomemcache v0.0.0-20180902122335-24332e2d58ab
+
+replace github.com/grafana/dskit => github.com/grafana/dskit v0.0.0-20210829123811-8081ec162556

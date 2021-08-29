@@ -424,6 +424,7 @@ github.com/fsouza/fake-gcs-server/internal/backend
 github.com/go-kit/kit/log
 github.com/go-kit/kit/log/level
 # github.com/go-kit/log v0.1.0
+## explicit
 github.com/go-kit/log
 github.com/go-kit/log/level
 # github.com/go-logfmt/logfmt v0.5.0
@@ -567,7 +568,7 @@ github.com/gorilla/mux
 # github.com/gorilla/websocket v1.4.2
 ## explicit
 github.com/gorilla/websocket
-# github.com/grafana/dskit v0.0.0-20210827060659-9daca2f00327
+# github.com/grafana/dskit v0.0.0-20210827060659-9daca2f00327 => github.com/grafana/dskit v0.0.0-20210829123811-8081ec162556
 ## explicit
 github.com/grafana/dskit/backoff
 github.com/grafana/dskit/closer
@@ -579,8 +580,13 @@ github.com/grafana/dskit/kv/etcd
 github.com/grafana/dskit/kv/kvtls
 github.com/grafana/dskit/kv/memberlist
 github.com/grafana/dskit/modules
+github.com/grafana/dskit/netutil
+github.com/grafana/dskit/ring
+github.com/grafana/dskit/ring/client
 github.com/grafana/dskit/runtimeconfig
 github.com/grafana/dskit/services
+github.com/grafana/dskit/stringutil
+github.com/grafana/dskit/timeutil
 # github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 ## explicit
 github.com/grpc-ecosystem/go-grpc-middleware
@@ -1740,3 +1746,4 @@ sigs.k8s.io/yaml
 # github.com/hashicorp/consul => github.com/hashicorp/consul v1.5.1
 # github.com/gocql/gocql => github.com/grafana/gocql v0.0.0-20200605141915-ba5dc39ece85
 # github.com/bradfitz/gomemcache => github.com/themihai/gomemcache v0.0.0-20180902122335-24332e2d58ab
+# github.com/grafana/dskit => github.com/grafana/dskit v0.0.0-20210829123811-8081ec162556
